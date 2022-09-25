@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Vadim Smirnov](https://up.htmlacademy.ru/htmlcss/35/user/2219227).
-* Наставник: `Неизвестно`.
+* Наставник: [Ярослав Шевцов](https://htmlacademy.ru/profile/redx).
 
 ---
 
