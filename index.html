@@ -1,12 +1,161 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+</head>
+<body>
+<div class="page-container">
+  <header class="header">
+    <div class="header-logo">
+      <a clas="header-logo-link">
+        <img class="header-logo-img" src="#" alt="Логотип">
+      </a>
+    </div>
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li class="main-nav-item"><a class="main-nav-link main-nav-link-current" href="#">Главная</a></li>
+        <li class="main-nav-item"><a class="main-nav-link" href="#">О Седоне</a></li>
+        <li class="main-nav-item"><a class="main-nav-link" href="#">Гостиницы</a></li>
+      </ul>
+    </nav>
+    <div class="user-nav">
+      <ul class="user-nav-list">
+        <li class="user-nav-item">
+          <a href="#" class="user-nav-link">
+            <img class="user-nav-icon" src="#" alt="Поиск">
+          </a>
+        </li>
+        <li class="user-nav-item">
+          <a href="#" class="user-nav-link">
+            <img class="user-nav-icon" src="#" alt="Избранное">
+            <span class="user-nav-number">12</span>
+          </a>
+        </li>
+        <li class="user-nav-item">
+          <a href="#" class="user-nav-link button">Хочу сюда!</a>
+        </li>
+      </ul>
+    </div>
+  </header>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+  <main class="main">
+    <section class="welcome">
+      <div class="welcome-promo">
+        <img src="#" alt="Баннер">
+      </div>
+      <div class="welcome-description">
+        <h1 class="welcome-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
+        <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+      </div>
+    </section>
 
-  </body>
+    <section class="advantages">
+      <ul class="advantages-list">
+        <li class="advantages-item advantages-item-big">
+          <div class="advantages-item-wrapper">
+            <h3 class="advantages-item-title">Настоящий городок</h3>
+            <p class="advantages-item-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+          </div>
+          <div class="advantages-item-img">
+            <img src="#" alt="">
+          </div>
+        </li>
+        <li class="advantages-item">
+          <div class="advantages-item-wrapper">
+            <h3 class="advantages-item-title">Небольшая площадь</h3>
+            <p class="advantages-item-description">Все достопримечательности находятся очень близко</p>
+          </div>
+        </li>
+        <li class="advantages-item">
+          <div class="advantages-item-wrapper">
+            <h3 class="advantages-item-title">Красивая дорога</h3>
+            <p class="advantages-item-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </div>
+        </li>
+        <li class="advantages-item">
+          <div class="advantages-item-wrapper">
+            <h3 class="advantages-item-title">Мало туристов</h3>
+            <p class="advantages-item-description">Большинство едет в Гранд Каньон и толпится там</p>
+          </div>
+        </li>
+        <li class="advantages-item advantages-item-big">
+          <div class="advantages-item-img">
+            <img src="#" alt="">
+          </div>
+          <div class="advantages-item-wrapper">
+            <h3 class="advantages-item-title">Там есть мост дьявола</h3>
+            <p class="advantages-item-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+          </div>
+        </li>
+        <li class="advantages-item">
+          <div class="advantages-item-wrapper">
+            <img class="advantages-item-icon" src="#" alt="">
+            <h3 class="advantages-item-title">Жильё</h3>
+            <p class="advantages-item-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+          </div>
+        </li>
+        <li class="advantages-item">
+          <div class="advantages-item-wrapper">
+            <img class="advantages-item-icon" src="#" alt="">
+            <h3 class="advantages-item-title">Еда</h3>
+            <p class="advantages-item-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+          </div>
+        </li>
+        <li class="advantages-item">
+          <div class="advantages-item-wrapper">
+            <img class="advantages-item-icon" src="#" alt="">
+            <h3 class="advantages-item-title">Сувениры</h3>
+            <p class="advantages-item-description">Не только китайского, но и настоящего местного производства!</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="search">
+      <h2 class="search-title">Заинтересовались?</h2>
+      <p class="search-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в
+        Седоне</p>
+      <a class="button search-button" href="#">Поиск гостиницы в Седоне</a>
+    </section>
+
+    <section class="subscribe">
+      <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
+      <p class="subscribe-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
+      <form class="subscribe-form">
+        <input class="input subscribe-input" type="email" name="" value="" placeholder="Ваш e-mail">
+        <input class="button subscribe-button" type="submit" value="Подписаться">
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-social">
+      <ul class="social-list">
+        <li class="social-item">
+          <a class="social-link" href="#">
+            <img class="social-icon" src="#">
+          </a>
+        </li>
+        <li class="social-item">
+          <a class="social-link" href="#">
+            <img class="social-icon" src="#">
+          </a>
+        </li>
+        <li class="social-item">
+          <a class="social-link" href="#">
+            <img class="social-icon" src="#">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-phone">
+      <a clas="footer-phone-link" href="tel:+78128121212">+7 (812) 812-12-12</a>
+    </div>
+    <div class="made-in">
+      <img class="made-in-link" src="#">
+    </div>
+  </footer>
+</div>
+</body>
 </html>
